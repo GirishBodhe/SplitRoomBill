@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import RxSwift
+
+struct Bill {
+    var billItemName : String?
+    var billTotalAmount : Float?
+    var billPaidBy : String?
+    var billCreatedAt : Int64?
+    var billUpdatedAt : Int64?
+    
+}

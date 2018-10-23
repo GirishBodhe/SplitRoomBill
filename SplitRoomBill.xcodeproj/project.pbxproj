@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26C28C123B581A7BD23D49F5 /* Pods_SplitRoomBillTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851B5D8D8205BC6F2A9533C7 /* Pods_SplitRoomBillTests.framework */; };
-		76449840A1DF21FAD2F7C659 /* Pods_SplitRoomBillUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CE868F3B61D8BDDF9C7EE1 /* Pods_SplitRoomBillUITests.framework */; };
-		A99880FC661A84FBA52B3F71 /* Pods_SplitRoomBill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97699A2A87A49BA4B9150F0F /* Pods_SplitRoomBill.framework */; };
+		2D556EB5D40A76384982E5AC /* Pods_SplitRoomBillUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7921790207C587A4E9B91170 /* Pods_SplitRoomBillUITests.framework */; };
+		3DE9324EBCFE1DBD6DCEB547 /* Pods_SplitRoomBill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E333CE28C7E842FDF3E6ADFE /* Pods_SplitRoomBill.framework */; };
+		AB103E562163AF5800CC2451 /* fingerprint-150159.png in Resources */ = {isa = PBXBuildFile; fileRef = AB103E552163AF5800CC2451 /* fingerprint-150159.png */; };
 		AB7BC70C215637B5008D98B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BC70B215637B5008D98B6 /* AppDelegate.swift */; };
 		AB7BC70E215637B5008D98B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BC70D215637B5008D98B6 /* ViewController.swift */; };
 		AB7BC711215637B5008D98B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7BC70F215637B5008D98B6 /* Main.storyboard */; };
@@ -17,6 +17,16 @@
 		AB7BC716215637B7008D98B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7BC714215637B7008D98B6 /* LaunchScreen.storyboard */; };
 		AB7BC721215637B8008D98B6 /* SplitRoomBillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BC720215637B8008D98B6 /* SplitRoomBillTests.swift */; };
 		AB7BC72C215637B8008D98B6 /* SplitRoomBillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BC72B215637B8008D98B6 /* SplitRoomBillUITests.swift */; };
+		ABB29B97216F3E400020CFDE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABB29B96216F3E400020CFDE /* GoogleService-Info.plist */; };
+		ABB29B99217486520020CFDE /* Total Spendings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABB29B98217486520020CFDE /* Total Spendings.jpg */; };
+		ABB29B9B217497F60020CFDE /* TotalSpendingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB29B9A217497F60020CFDE /* TotalSpendingsViewController.swift */; };
+		ABB29B9D2174AF8E0020CFDE /* AddBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB29B9C2174AF8E0020CFDE /* AddBillsViewController.swift */; };
+		ABB29B9F2174AFAE0020CFDE /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB29B9E2174AFAE0020CFDE /* Bill.swift */; };
+		ABB29BA1217F2E750020CFDE /* Indian_Rupee_symbol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABB29BA0217F2E750020CFDE /* Indian_Rupee_symbol.jpg */; };
+		ABB29BA3217F30D10020CFDE /* TotalSpending.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABB29BA2217F30D00020CFDE /* TotalSpending.jpg */; };
+		ABB29BA7217F3D8E0020CFDE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB29BA6217F3D8E0020CFDE /* Constant.swift */; };
+		ABB29BA9217F4F7A0020CFDE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB29BA8217F4F7A0020CFDE /* TableViewCell.swift */; };
+		CB963EEDD7983893F7821947 /* Pods_SplitRoomBillTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C71E0901913BE208959681 /* Pods_SplitRoomBillTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1414EB000D41E69FE73E1FC0 /* Pods-SplitRoomBillTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBillTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBillTests/Pods-SplitRoomBillTests.debug.xcconfig"; sourceTree = "<group>"; };
-		27EBC635E6C486E5DCF4F6A7 /* Pods-SplitRoomBillUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBillUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBillUITests/Pods-SplitRoomBillUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		71CE868F3B61D8BDDF9C7EE1 /* Pods_SplitRoomBillUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitRoomBillUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8425B34CE14523B76E46FE94 /* Pods-SplitRoomBill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBill.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBill/Pods-SplitRoomBill.release.xcconfig"; sourceTree = "<group>"; };
-		851B5D8D8205BC6F2A9533C7 /* Pods_SplitRoomBillTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitRoomBillTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97699A2A87A49BA4B9150F0F /* Pods_SplitRoomBill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitRoomBill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DCFE4E0040B33A59B913B8 /* Pods-SplitRoomBill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBill.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBill/Pods-SplitRoomBill.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7B4CBBF3D9614CEBBC0F4D /* Pods-SplitRoomBillTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBillTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBillTests/Pods-SplitRoomBillTests.release.xcconfig"; sourceTree = "<group>"; };
+		65692CA58927ADCDE383C6D5 /* Pods-SplitRoomBillTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBillTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBillTests/Pods-SplitRoomBillTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7921790207C587A4E9B91170 /* Pods_SplitRoomBillUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitRoomBillUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0CBCDE4E0115F543348712 /* Pods-SplitRoomBill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBill.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBill/Pods-SplitRoomBill.release.xcconfig"; sourceTree = "<group>"; };
+		AB103E552163AF5800CC2451 /* fingerprint-150159.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint-150159.png"; sourceTree = "<group>"; };
 		AB7BC708215637B5008D98B6 /* SplitRoomBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitRoomBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7BC70B215637B5008D98B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7BC70D215637B5008D98B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,9 +66,19 @@
 		AB7BC727215637B8008D98B6 /* SplitRoomBillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitRoomBillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7BC72B215637B8008D98B6 /* SplitRoomBillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitRoomBillUITests.swift; sourceTree = "<group>"; };
 		AB7BC72D215637B8008D98B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC09EE75C765392EC51F7EAF /* Pods-SplitRoomBillUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBillUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBillUITests/Pods-SplitRoomBillUITests.release.xcconfig"; sourceTree = "<group>"; };
-		BF258CC02834C8D03B16CD18 /* Pods-SplitRoomBillTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBillTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBillTests/Pods-SplitRoomBillTests.release.xcconfig"; sourceTree = "<group>"; };
-		D6CAC155964F6768D76D6D67 /* Pods-SplitRoomBill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBill.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBill/Pods-SplitRoomBill.debug.xcconfig"; sourceTree = "<group>"; };
+		ABB29B96216F3E400020CFDE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ABB29B98217486520020CFDE /* Total Spendings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Total Spendings.jpg"; sourceTree = "<group>"; };
+		ABB29B9A217497F60020CFDE /* TotalSpendingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalSpendingsViewController.swift; sourceTree = "<group>"; };
+		ABB29B9C2174AF8E0020CFDE /* AddBillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillsViewController.swift; sourceTree = "<group>"; };
+		ABB29B9E2174AFAE0020CFDE /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		ABB29BA0217F2E750020CFDE /* Indian_Rupee_symbol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Indian_Rupee_symbol.jpg; sourceTree = "<group>"; };
+		ABB29BA2217F30D00020CFDE /* TotalSpending.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TotalSpending.jpg; sourceTree = "<group>"; };
+		ABB29BA6217F3D8E0020CFDE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		ABB29BA8217F4F7A0020CFDE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D7C71E0901913BE208959681 /* Pods_SplitRoomBillTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitRoomBillTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE79378599A017B9931C08A /* Pods-SplitRoomBillUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBillUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBillUITests/Pods-SplitRoomBillUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E333CE28C7E842FDF3E6ADFE /* Pods_SplitRoomBill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitRoomBill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F728D9C61D83326A6B588D16 /* Pods-SplitRoomBillUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitRoomBillUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitRoomBillUITests/Pods-SplitRoomBillUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A99880FC661A84FBA52B3F71 /* Pods_SplitRoomBill.framework in Frameworks */,
+				3DE9324EBCFE1DBD6DCEB547 /* Pods_SplitRoomBill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C28C123B581A7BD23D49F5 /* Pods_SplitRoomBillTests.framework in Frameworks */,
+				CB963EEDD7983893F7821947 /* Pods_SplitRoomBillTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,22 +102,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76449840A1DF21FAD2F7C659 /* Pods_SplitRoomBillUITests.framework in Frameworks */,
+				2D556EB5D40A76384982E5AC /* Pods_SplitRoomBillUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		815CAD86820395F76AC087C4 /* Pods */ = {
+		6121630143CE84DA97F3937B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6CAC155964F6768D76D6D67 /* Pods-SplitRoomBill.debug.xcconfig */,
-				8425B34CE14523B76E46FE94 /* Pods-SplitRoomBill.release.xcconfig */,
-				1414EB000D41E69FE73E1FC0 /* Pods-SplitRoomBillTests.debug.xcconfig */,
-				BF258CC02834C8D03B16CD18 /* Pods-SplitRoomBillTests.release.xcconfig */,
-				27EBC635E6C486E5DCF4F6A7 /* Pods-SplitRoomBillUITests.debug.xcconfig */,
-				BC09EE75C765392EC51F7EAF /* Pods-SplitRoomBillUITests.release.xcconfig */,
+				E333CE28C7E842FDF3E6ADFE /* Pods_SplitRoomBill.framework */,
+				D7C71E0901913BE208959681 /* Pods_SplitRoomBillTests.framework */,
+				7921790207C587A4E9B91170 /* Pods_SplitRoomBillUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7809299D3DD9D37A6965C9C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33DCFE4E0040B33A59B913B8 /* Pods-SplitRoomBill.debug.xcconfig */,
+				7E0CBCDE4E0115F543348712 /* Pods-SplitRoomBill.release.xcconfig */,
+				65692CA58927ADCDE383C6D5 /* Pods-SplitRoomBillTests.debug.xcconfig */,
+				5B7B4CBBF3D9614CEBBC0F4D /* Pods-SplitRoomBillTests.release.xcconfig */,
+				DCE79378599A017B9931C08A /* Pods-SplitRoomBillUITests.debug.xcconfig */,
+				F728D9C61D83326A6B588D16 /* Pods-SplitRoomBillUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -105,12 +135,17 @@
 		AB7BC6FF215637B5008D98B6 = {
 			isa = PBXGroup;
 			children = (
+				ABB29BA8217F4F7A0020CFDE /* TableViewCell.swift */,
+				ABB29B9E2174AFAE0020CFDE /* Bill.swift */,
+				ABB29B9C2174AF8E0020CFDE /* AddBillsViewController.swift */,
 				AB7BC70A215637B5008D98B6 /* SplitRoomBill */,
 				AB7BC71F215637B8008D98B6 /* SplitRoomBillTests */,
 				AB7BC72A215637B8008D98B6 /* SplitRoomBillUITests */,
 				AB7BC709215637B5008D98B6 /* Products */,
-				815CAD86820395F76AC087C4 /* Pods */,
-				BE94CA04811EC71BDFBDB4DA /* Frameworks */,
+				AB103E552163AF5800CC2451 /* fingerprint-150159.png */,
+				ABB29B96216F3E400020CFDE /* GoogleService-Info.plist */,
+				7809299D3DD9D37A6965C9C6 /* Pods */,
+				6121630143CE84DA97F3937B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,12 +162,17 @@
 		AB7BC70A215637B5008D98B6 /* SplitRoomBill */ = {
 			isa = PBXGroup;
 			children = (
+				ABB29B98217486520020CFDE /* Total Spendings.jpg */,
 				AB7BC70B215637B5008D98B6 /* AppDelegate.swift */,
 				AB7BC70D215637B5008D98B6 /* ViewController.swift */,
+				ABB29B9A217497F60020CFDE /* TotalSpendingsViewController.swift */,
 				AB7BC70F215637B5008D98B6 /* Main.storyboard */,
 				AB7BC712215637B7008D98B6 /* Assets.xcassets */,
+				ABB29BA2217F30D00020CFDE /* TotalSpending.jpg */,
+				ABB29BA0217F2E750020CFDE /* Indian_Rupee_symbol.jpg */,
 				AB7BC714215637B7008D98B6 /* LaunchScreen.storyboard */,
 				AB7BC717215637B8008D98B6 /* Info.plist */,
+				ABB29BA6217F3D8E0020CFDE /* Constant.swift */,
 			);
 			path = SplitRoomBill;
 			sourceTree = "<group>";
@@ -155,16 +195,6 @@
 			path = SplitRoomBillUITests;
 			sourceTree = "<group>";
 		};
-		BE94CA04811EC71BDFBDB4DA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				97699A2A87A49BA4B9150F0F /* Pods_SplitRoomBill.framework */,
-				851B5D8D8205BC6F2A9533C7 /* Pods_SplitRoomBillTests.framework */,
-				71CE868F3B61D8BDDF9C7EE1 /* Pods_SplitRoomBillUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,11 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB7BC730215637B8008D98B6 /* Build configuration list for PBXNativeTarget "SplitRoomBill" */;
 			buildPhases = (
-				5D40B773FBA001A9A4D06D3A /* [CP] Check Pods Manifest.lock */,
+				B28C5C0908E2C80E86C9D721 /* [CP] Check Pods Manifest.lock */,
 				AB7BC704215637B5008D98B6 /* Sources */,
 				AB7BC705215637B5008D98B6 /* Frameworks */,
 				AB7BC706215637B5008D98B6 /* Resources */,
-				58F0E91719A2EDEC803C5124 /* [CP] Embed Pods Frameworks */,
+				990F760E9F6B6A977E75A269 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,7 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB7BC733215637B8008D98B6 /* Build configuration list for PBXNativeTarget "SplitRoomBillTests" */;
 			buildPhases = (
-				0295277373B45AD5BD9BFAA8 /* [CP] Check Pods Manifest.lock */,
+				F52B16114FB6855595665203 /* [CP] Check Pods Manifest.lock */,
 				AB7BC718215637B8008D98B6 /* Sources */,
 				AB7BC719215637B8008D98B6 /* Frameworks */,
 				AB7BC71A215637B8008D98B6 /* Resources */,
@@ -210,7 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB7BC736215637B8008D98B6 /* Build configuration list for PBXNativeTarget "SplitRoomBillUITests" */;
 			buildPhases = (
-				A3FC4EB5DCC52106833A9304 /* [CP] Check Pods Manifest.lock */,
+				893BECDB45A42519D18A4F29 /* [CP] Check Pods Manifest.lock */,
 				AB7BC723215637B8008D98B6 /* Sources */,
 				AB7BC724215637B8008D98B6 /* Frameworks */,
 				AB7BC725215637B8008D98B6 /* Resources */,
@@ -275,7 +305,12 @@
 			files = (
 				AB7BC716215637B7008D98B6 /* LaunchScreen.storyboard in Resources */,
 				AB7BC713215637B7008D98B6 /* Assets.xcassets in Resources */,
+				ABB29B97216F3E400020CFDE /* GoogleService-Info.plist in Resources */,
+				ABB29B99217486520020CFDE /* Total Spendings.jpg in Resources */,
 				AB7BC711215637B5008D98B6 /* Main.storyboard in Resources */,
+				AB103E562163AF5800CC2451 /* fingerprint-150159.png in Resources */,
+				ABB29BA3217F30D10020CFDE /* TotalSpending.jpg in Resources */,
+				ABB29BA1217F2E750020CFDE /* Indian_Rupee_symbol.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +331,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0295277373B45AD5BD9BFAA8 /* [CP] Check Pods Manifest.lock */ = {
+		893BECDB45A42519D18A4F29 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,14 +346,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SplitRoomBillTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SplitRoomBillUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		58F0E91719A2EDEC803C5124 /* [CP] Embed Pods Frameworks */ = {
+		990F760E9F6B6A977E75A269 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,7 +407,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplitRoomBill/Pods-SplitRoomBill-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5D40B773FBA001A9A4D06D3A /* [CP] Check Pods Manifest.lock */ = {
+		B28C5C0908E2C80E86C9D721 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,7 +429,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A3FC4EB5DCC52106833A9304 /* [CP] Check Pods Manifest.lock */ = {
+		F52B16114FB6855595665203 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,7 +444,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SplitRoomBillUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SplitRoomBillTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -423,8 +458,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB29B9B217497F60020CFDE /* TotalSpendingsViewController.swift in Sources */,
+				ABB29B9F2174AFAE0020CFDE /* Bill.swift in Sources */,
+				ABB29B9D2174AF8E0020CFDE /* AddBillsViewController.swift in Sources */,
 				AB7BC70E215637B5008D98B6 /* ViewController.swift in Sources */,
 				AB7BC70C215637B5008D98B6 /* AppDelegate.swift in Sources */,
+				ABB29BA9217F4F7A0020CFDE /* TableViewCell.swift in Sources */,
+				ABB29BA7217F3D8E0020CFDE /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,10 +635,11 @@
 		};
 		AB7BC731215637B8008D98B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6CAC155964F6768D76D6D67 /* Pods-SplitRoomBill.debug.xcconfig */;
+			baseConfigurationReference = 33DCFE4E0040B33A59B913B8 /* Pods-SplitRoomBill.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 368F6C854V;
 				INFOPLIST_FILE = SplitRoomBill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -613,10 +654,11 @@
 		};
 		AB7BC732215637B8008D98B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8425B34CE14523B76E46FE94 /* Pods-SplitRoomBill.release.xcconfig */;
+			baseConfigurationReference = 7E0CBCDE4E0115F543348712 /* Pods-SplitRoomBill.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 368F6C854V;
 				INFOPLIST_FILE = SplitRoomBill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -631,7 +673,7 @@
 		};
 		AB7BC734215637B8008D98B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1414EB000D41E69FE73E1FC0 /* Pods-SplitRoomBillTests.debug.xcconfig */;
+			baseConfigurationReference = 65692CA58927ADCDE383C6D5 /* Pods-SplitRoomBillTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -652,7 +694,7 @@
 		};
 		AB7BC735215637B8008D98B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF258CC02834C8D03B16CD18 /* Pods-SplitRoomBillTests.release.xcconfig */;
+			baseConfigurationReference = 5B7B4CBBF3D9614CEBBC0F4D /* Pods-SplitRoomBillTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -673,7 +715,7 @@
 		};
 		AB7BC737215637B8008D98B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27EBC635E6C486E5DCF4F6A7 /* Pods-SplitRoomBillUITests.debug.xcconfig */;
+			baseConfigurationReference = DCE79378599A017B9931C08A /* Pods-SplitRoomBillUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -693,7 +735,7 @@
 		};
 		AB7BC738215637B8008D98B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC09EE75C765392EC51F7EAF /* Pods-SplitRoomBillUITests.release.xcconfig */;
+			baseConfigurationReference = F728D9C61D83326A6B588D16 /* Pods-SplitRoomBillUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

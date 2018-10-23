@@ -8,8 +8,16 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
+class RecentSpendingsTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var recentSpendingsImageview: UIImageView!
+    @IBOutlet weak var rescentSpendingsName: UILabel!
+    @IBOutlet weak var rescentSpendingsDate: UILabel!
+    @IBOutlet weak var rescentSpendingsAmount: UILabel!
+    @IBOutlet weak var rescentSpendingsStatus: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
